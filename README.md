@@ -28,7 +28,7 @@ Without parameters it will scan ALL the configurations, so that you can create a
 #### Usage
 
 ./queuemetrics-config-read.php [parameters]   
-or
+or   
 ./queuemetrics-config-read.php [parameters] > output-file
 
 __-n__ or __--no-child__: prevents the script from looking for child elements (for hierarchical editors)   
@@ -55,8 +55,8 @@ Also, if you delete your robot user or the ROBOTS user class the script stops wo
 
 #### Usage
 
-./queuemetrics-config-delete.php [parameters]
-or
+./queuemetrics-config-delete.php [parameters]   
+or   
 ./queuemetrics-config-delete.php [parameters] > backup-file
 
 __-n__ or __--no-child__: prevents the script from looking for child elements (for hierarchical editors)   
@@ -74,8 +74,8 @@ Add a new QueueMetrics configuration from parameters or from file.
 
 #### Usage
 
-./queuemetrics-config-delete.php [editor name] [base64 encoded json object]
-or
+./queuemetrics-config-delete.php [editor name] [base64 encoded json object]   
+or   
 ./queuemetrics-config-delete.php < input-file
 
 Every line of input-file should be composed as [editor name] [base64 encoded json object], e.g:
