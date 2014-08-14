@@ -19,7 +19,7 @@ Run the following command:
 
 ./queuemetrics-config-read.php > qmconfig
 
-An optional one - Step 4: Copy it to your new machine
+An optional one - Step 4: Copy it into your new machine
 -----------------------------------------------------
 
 After have changed the configuration in order to point to your new machine; delete all its configurations (the robot account in use won't be deleted):
