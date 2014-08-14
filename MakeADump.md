@@ -28,4 +28,6 @@ After have changed the configuration in order to point to your new machine; dele
 
 (all the deleted lines will be saved in __backup-file__, just to be on the safe side).
 
+Then write in it your old configuration:
+
 ./queuemetrics-config-add.php < qmconfig
