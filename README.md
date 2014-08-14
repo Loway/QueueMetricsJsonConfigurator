@@ -1,8 +1,8 @@
 QueueMetrics Configuration Tools
 ================================
 
-Warning
--------
+Prerequisites
+-------------
 
 Before using this software configurate it from ./includes/config.php
 
