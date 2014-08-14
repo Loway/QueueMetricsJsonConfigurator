@@ -1,6 +1,7 @@
 ### General
 
 - Better errors & warnings handling
+- Connection details (queuemetrics' url, login) as script's parameters
 
 ### queuemetrics-config-add.php
 
