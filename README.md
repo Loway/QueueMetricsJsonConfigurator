@@ -1,17 +1,16 @@
 QueueMetrics Configuration Tools
 ================================
 
+These script uses the [**QueueMetrics JSON Configuration API**](http://manuals.loway.ch/QM_JSON_manual-chunked) in order to read/add/delete configurations such as agents', queues' or users' definition from a QueueMetrics system.
+
+Use it to [make a complete dump of your configuration](MakeADump.md) or integrated with your scripts and software.
+
 Prerequisites
 -------------
 
 Before using this software configurate it from ./includes/config.php
 
 Make sure you have __php5-cli__, __php5-curl__ and __php5-json__ on your machine.
-
-Description
------------
-
-These tools can be used to generate a back-up of the QueueMetrics configuration (Queues, Agents, Users, etc...) or integrated with your scripts and software.
 
 queuemetrics-config-read.php
 ----------------------------
