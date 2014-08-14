@@ -12,48 +12,48 @@
 	 */
 
 	$editors_write = array(	
-						//  'class',	- uncomment only if strictly necessary
-							'location',
-							'agentGroup',
-							'agent',		// depends on agentGroup and location
-							'dnis',
-							'ivr',
-							'outcome',
-							'pause',
-							'qaForm',
-							'queue',
-							'report',
-							'user',			// depends on class
-							'exportJob',	// depends on report and queue
-							'exportReport'
+				//  'class',	- uncomment only if strictly necessary
+				'location',
+				'agentGroup',
+				'agent',	// depends on agentGroup and location
+				'dnis',
+				'ivr',
+				'outcome',
+				'pause',
+				'qaForm',
+				'queue',
+				'report',
+				'user',		// depends on class
+				'exportJob',	// depends on report and queue
+				'exportReport'
 						
 	);
 	
 	$editors_delete = array(
-							'agent',	
-							'location',		// delete agent before
-							'agentGroup',	// delete agent before
-							'dnis',
-							'exportJob',
-							'exportReport',
-							'ivr',
-							'outcome',
-							'pause',
-							'qaForm',
-							'queue',		// delete exportJob before
-							'report',		// delete exportJob before
-							'user'
-						//	,'class',	- uncomment only if strictly necessary (delete user before)
+				'agent',	
+				'location',	// delete agent before
+				'agentGroup',	// delete agent before
+				'dnis',
+				'exportJob',
+				'exportReport',
+				'ivr',
+				'outcome',
+				'pause',
+				'qaForm',
+				'queue',	// delete exportJob before
+				'report',	// delete exportJob before
+				'user'
+				//	,'class', - uncomment only if strictly necessary (delete user before)
 	);
 		
 	$child_editors = array(	'qaItem',
-							'reportScreen',
-							'reportItem'
+				'reportScreen',
+				'reportItem'
 	);
 	
-	$childOf = array(	'qaForm'		=> 	'qaItem',
-						'report'		=> 	'reportScreen',
-						'reportScreen'	=> 	'reportItem'
+	$childOf = array(	'qaForm'	=> 	'qaItem',
+				'report'	=> 	'reportScreen',
+				'reportScreen'	=> 	'reportItem'
 	);
 		
 	
@@ -114,8 +114,8 @@
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
 		curl_setopt($ch, CURLOPT_HTTPHEADER, array(	'Content-Type: application/json',
-													'Content-Length: ' . strlen($data))
-													);
+								'Content-Length: ' . strlen($data))
+							);
 		$output = curl_exec($ch);
 		curl_close($ch);
 		
