@@ -2,9 +2,9 @@
 	require './config/config.php';
 	
 	/*
-	 * Valid JSON Parent Editors (Read-Only Editors not included)
-	 * 
-	 * and Children Editors
+	 * Valid QueueMetrics JSON Parent Editors (Read-Only Editors
+	 * not included) and Children Editors
+	 *
 	 * **********************************************************
 	 * 
 	 * There are two list since the order is different for read
