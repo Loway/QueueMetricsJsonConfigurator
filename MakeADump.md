@@ -22,7 +22,7 @@ Run the following command:
 An optional one - Step 4: Copy it to your new machine
 -----------------------------------------------------
 
-After have changed the configuration in order to point to another machine; delete all its configurations (the robot account in use won't be deleted):
+After have changed the configuration in order to point to your new machine; delete all its configurations (the robot account in use won't be deleted):
 
 ./queuemetrics-config-delete.php --force > backup-file
 
