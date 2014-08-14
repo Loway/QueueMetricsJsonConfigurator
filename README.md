@@ -32,10 +32,10 @@ or
 ./queuemetrics-config-read.php [parameters] > output-file
 
 __-n__ or __--no-child__: prevents the script from looking for child elements (for hierarchical editors)   
-__-e__ or __--editor__:	filter by name of the editor   
-__-l__ or __--element__: filter a specific element by its ID (better used with __-e__)   
-__-q__ or __--query__: filter by searching in elements' fields; use double quotes for more than one word   
-__-p__ or __--parent__: filter by parent element's ID (for hierarchical editors, better used with __-e__)   
+__-e [name]__ or __--editor [name]__:	filter by name of the editor   
+__-l [id]__ or __--element [id]__: filter a specific element by its ID (better used with __-e__)   
+__-q [query]__ or __--query [query]__: filter by searching in elements' fields; use double quotes for more than one word   
+__-p [parent id]__ or __--parent [parent id]__: filter by parent element's ID (for hierarchical editors, better used with __-e__)   
 __-h__ or __--help__: will show this message 
 
 queuemetrics-config-delete.php
@@ -60,10 +60,10 @@ or
 ./queuemetrics-config-delete.php [parameters] > backup-file
 
 __-n__ or __--no-child__: prevents the script from looking for child elements (for hierarchical editors)   
-__-e__ or __--editor__:	filter by name of the editor   
-__-l__ or __--element__: filter a specific element by its ID (better used with __-e__)   
-__-q__ or __--query__: filter by searching in elements' fields; use double quotes for more than one word   
-__-p__ or __--parent__: filter by parent element's ID (for hierarchical editors, better used with __-e__)   
+__-e [name]__ or __--editor [name]__:	filter by name of the editor   
+__-l [id]__ or __--element [id]__: filter a specific element by its ID (better used with __-e__)   
+__-q [query]__ or __--query [query]__: filter by searching in elements' fields; use double quotes for more than one word   
+__-p [parent id]__ or __--parent [parent id]__: filter by parent element's ID (for hierarchical editors, better used with __-e__)   
 __-f__ or __--force__: forces deleting; needed when you don't specify an element number   
 __-h__ or __--help__: will show this message 
 
