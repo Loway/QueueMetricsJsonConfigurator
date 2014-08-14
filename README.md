@@ -13,7 +13,8 @@ Description
 
 These tools can be used to generate a back-up of the QueueMetrics configuration (Queues, Agents, Users, etc...) or integrated with your scripts and software.
 
-### queuemetrics-config-read.php
+queuemetrics-config-read.php
+----------------------------
 
 With this tool you can read all or some configurations from QueueMetrics.   
 You will get the name of the kind of the element and its json value (encoded in base64 in order to have it on one line) separated by a tab; example:
@@ -37,7 +38,8 @@ __-q__ or __--query__: filter by searching in elements' fields; use double quote
 __-p__ or __--parent__: filter by parent element's ID (for hierarchical editors, better used with __-e__)   
 __-h__ or __--help__: will show this message 
 
-### queuemetrics-config-delete.php
+queuemetrics-config-delete.php
+------------------------------
 
 With this tool you can delete all or some configurations from QueueMetrics.   
 After an element is deleted, these script will output a copy of it.   
@@ -65,7 +67,8 @@ __-p__ or __--parent__: filter by parent element's ID (for hierarchical editors,
 __-f__ or __--force__: forces deleting; needed when you don't specify an element number   
 __-h__ or __--help__: will show this message 
 
-### queuemetrics-config-add.php
+queuemetrics-config-add.php
+---------------------------
 
 Add a new QueueMetrics configuration from parameters or from file.
 
