@@ -74,7 +74,7 @@ Add a new QueueMetrics configuration from parameters or from file.
 
 #### Usage
 
-./queuemetrics-config-delete.php [editor name] [base64 encoded json object]   
+./queuemetrics-config-delete.php [editor name] [base64\_encoded\_json_object]
 or   
 ./queuemetrics-config-delete.php < input-file
 
