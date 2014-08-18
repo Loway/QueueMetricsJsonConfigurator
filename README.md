@@ -8,9 +8,10 @@ Use it to [make a complete dump of your configuration](MakeADump.md) or integrat
 Prerequisites
 -------------
 
-Before using this software configurate it from ./includes/config.php
+- PHP: Make sure you have __php5-cli__, __php5-curl__ and __php5-json__ on your machine.
+- QueueMetrics __14.06__ or newer
 
-Make sure you have __php5-cli__, __php5-curl__ and __php5-json__ on your machine.
+Before using this software configurate it from ./includes/config.php
 
 queuemetrics-config-read.php
 ----------------------------
