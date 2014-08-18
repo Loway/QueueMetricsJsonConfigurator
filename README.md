@@ -1,7 +1,7 @@
 QueueMetrics Configuration Tools
 ================================
 
-These script uses the [**QueueMetrics JSON Configuration API**](http://manuals.loway.ch/QM_JSON_manual-chunked) in order to read/add/delete configurations such as agents, queues or users definitions from a QueueMetrics system.
+These scripts use the [**QueueMetrics JSON Configuration API**](http://manuals.loway.ch/QM_JSON_manual-chunked) in order to read/add/delete configurations such as agents, queues or users definitions from a QueueMetrics system.
 
 Use it to [make a complete dump of your configuration](MakeADump.md) or integrated with your scripts and software.
 
