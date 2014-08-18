@@ -78,7 +78,7 @@ Add a new QueueMetrics configuration from parameters or from file.
 or   
 ./queuemetrics-config-delete.php < input-file
 
-Every line of input-file should be composed as [editor name] [base64 encoded json object], e.g:
+Every line of _input-file_ should be composed as [editor name] [base64\_encoded\_json_object], e.g:
 
 agent	ewogICJhbGlhc2VzIiA6IC6ICAogICJjaGl...   
 queue	iLAogICJjaGlewogICJhbGlhc26IC6ICCJa...  
