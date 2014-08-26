@@ -2,6 +2,7 @@
 
 - Better errors & warnings handling
 - Connection details (queuemetrics' url, login) as script's parameters
+- CVS import
 
 ### queuemetrics-config-add.php
 
