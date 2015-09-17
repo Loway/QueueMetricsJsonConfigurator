@@ -25,8 +25,9 @@
 				'report',
 				'user',		// depends on class
 				'exportJob',	// depends on report and queue
-				'exportReport'
-						
+				'exportReport',
+				'skills'	,
+				'knownnumbers'
 	);
 	
 	$editors_delete = array(
@@ -117,7 +118,7 @@
 			$webappName = $config['webapp_name']."/";
 		}
 		
-		$url = "http://".$config['host'].":".$config['port']."/".$webappName."/".$editor."/-/jsonEditorApi.do";
+		$url = "http://".$config['host'].":".$config['port']."/".$webappName.$editor."/-/jsonEditorApi.do";
 		
 		/*
 		 * cURL
