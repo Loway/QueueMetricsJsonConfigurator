@@ -64,7 +64,12 @@
 	function send_get_query($editor, $element, $search, $parent) {
 		global $config;
 		
-		$url = "http://".$config['host'].":".$config['port']."/".$config['webapp_name']."/".$editor."/".$element."/jsonEditorApi.do?q=".$search."&parent=".$parent;
+		$webappName = "";
+		if (strlen($config['webapp_name']) != 0) {
+			$webappName = $config['webapp_name']."/";
+		}
+		
+		$url = "http://".$config['host'].":".$config['port']."/".$webappName.$editor."/".$element."/jsonEditorApi.do?q=".$search."&parent=".$parent;
 		
 		/*
 		 * cURL 
@@ -83,7 +88,12 @@
 	function send_delete_query($editor, $element) {
 		global $config;
 		
-		$url = "http://".$config['host'].":".$config['port']."/".$config['webapp_name']."/".$editor."/".$element."/jsonEditorApi.do";
+		$webappName = "";
+		if (strlen($config['webapp_name']) != 0) {
+			$webappName = $config['webapp_name']."/";
+		}
+		
+		$url = "http://".$config['host'].":".$config['port']."/".$webappName.$editor."/".$element."/jsonEditorApi.do";
 		
 		/*
 		 * cURL 
@@ -101,8 +111,13 @@
 		
 	function send_add_query($editor, $data) {
 		global $config;
+
+		$webappName = "";
+		if (strlen($config['webapp_name']) != 0) {
+			$webappName = $config['webapp_name']."/";
+		}
 		
-		$url = "http://".$config['host'].":".$config['port']."/".$config['webapp_name']."/".$editor."/-/jsonEditorApi.do";
+		$url = "http://".$config['host'].":".$config['port']."/".$webappName."/".$editor."/-/jsonEditorApi.do";
 		
 		/*
 		 * cURL
